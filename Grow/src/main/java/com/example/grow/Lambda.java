@@ -8,7 +8,7 @@ public class Lambda {
 
         System.out.println(lambda.Operation(1,2,addition));
         System.out.println(lambda.Operation(2,1,subtraction));
-        //lambda可以引用final修饰的变量，使用普通变量在之后的代码不允许改变。
+        //lambda可以引用final修饰的变量，使用普通变量在之后的代码不允许改变
     }
     interface MathOperation{
         int operation (int a , int b);
