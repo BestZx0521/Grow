@@ -9,5 +9,6 @@ public class ClassTest {
         list.add("111");
         list.add("222");
         list.forEach(System.out::println);
+	
     }
 }
